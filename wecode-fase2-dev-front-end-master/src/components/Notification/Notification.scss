@@ -1,0 +1,24 @@
+.notification-container {
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 3000;
+
+  left: auto;
+  transform: none;
+
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+}

@@ -1,0 +1,33 @@
+.info-slider-section {
+  padding: 40px 20px;
+
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .slick-dots {
+    position: static;
+    margin-top: 20px;
+    text-align: right;
+
+    li {
+      margin: 0 0.1px;
+      color: white;
+      opacity: 0.75;
+    }
+
+    li button:before {
+      font-size: 7px;
+      opacity: 1;
+      color: gray;
+    }
+
+    li.slick-active button:before {
+      color: black;
+    }
+  }
+}

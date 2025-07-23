@@ -1,0 +1,25 @@
+.hero-slider-container .slick-dots {
+    position: relative;
+
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: auto;
+
+    li {
+        margin: 0 0.1px;
+        color: white;
+        opacity: 0.75;
+    }
+
+    li button:before {
+        color: gray;
+        font-size: 7px;
+        opacity: 1;
+    }
+
+    li.slick-active button:before {
+        color: white;
+        opacity: 1;
+    }
+}
